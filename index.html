@@ -5,24 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
     <title>ToothMate Dental Coach</title>
     
-    <!-- Link to the manifest file -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    
-    <!-- Apple Touch Icon (makes it look professional on iPhone home screen) -->
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <link rel="manifest" href="/manifest.json" />
     
     <style>
-      /* Ensures the app takes up the full mobile screen without bounce */
       html, body { 
         height: 100%; 
         margin: 0; 
-        overscroll-behavior: none; /* Prevents pull-to-refresh bounce */
-        background-color: #f8fafc;
+        overscroll-behavior: none; 
+        background-color: #ffffff;
       } 
       #root { height: 100%; }
     </style>
   </head>
-
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
